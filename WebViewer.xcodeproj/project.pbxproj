@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4D13FE2BC87F9000BB985E /* SizeSliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D13FD2BC87F9000BB985E /* SizeSliders.swift */; };
+		4D7ECAD42BAC9411002C2A10 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ECAD32BAC9411002C2A10 /* AppState.swift */; };
+		4D7ECAD62BAC947D002C2A10 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ECAD52BAC947D002C2A10 /* StartView.swift */; };
+		4D98A8D92BAF0E460019CA0A /* YoutubeBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98A8D82BAF0E460019CA0A /* YoutubeBrowserView.swift */; };
+		4DB144C22BC9C8CE00EA6A8E /* GlobalEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB144C12BC9C8CE00EA6A8E /* GlobalEntities.swift */; };
 		4DE90FD22BA4B08C00DE1000 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4DE90FD12BA4B08C00DE1000 /* RealityKitContent */; };
 		4DE90FD42BA4B08C00DE1000 /* WebViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE90FD32BA4B08C00DE1000 /* WebViewerApp.swift */; };
 		4DE90FD62BA4B08C00DE1000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE90FD52BA4B08C00DE1000 /* ContentView.swift */; };
 		4DE90FD82BA4B08C00DE1000 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE90FD72BA4B08C00DE1000 /* ImmersiveView.swift */; };
 		4DE90FDA2BA4B08D00DE1000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE90FD92BA4B08D00DE1000 /* Assets.xcassets */; };
 		4DE90FDD2BA4B08D00DE1000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE90FDC2BA4B08D00DE1000 /* Preview Assets.xcassets */; };
+		4DE90FE52BA4B12C00DE1000 /* WebStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE90FE42BA4B12C00DE1000 /* WebStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D4D13FD2BC87F9000BB985E /* SizeSliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeSliders.swift; sourceTree = "<group>"; };
+		4D7ECAD32BAC9411002C2A10 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		4D7ECAD52BAC947D002C2A10 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		4D98A8D82BAF0E460019CA0A /* YoutubeBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeBrowserView.swift; sourceTree = "<group>"; };
+		4DB144C12BC9C8CE00EA6A8E /* GlobalEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEntities.swift; sourceTree = "<group>"; };
 		4DE90FCC2BA4B08C00DE1000 /* WebViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE90FD02BA4B08C00DE1000 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		4DE90FD32BA4B08C00DE1000 /* WebViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewerApp.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		4DE90FD92BA4B08D00DE1000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE90FDC2BA4B08D00DE1000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DE90FDE2BA4B08D00DE1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE90FE42BA4B12C00DE1000 /* WebStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,14 @@
 			isa = PBXGroup;
 			children = (
 				4DE90FD32BA4B08C00DE1000 /* WebViewerApp.swift */,
+				4D7ECAD52BAC947D002C2A10 /* StartView.swift */,
+				4D7ECAD32BAC9411002C2A10 /* AppState.swift */,
 				4DE90FD52BA4B08C00DE1000 /* ContentView.swift */,
+				4D98A8D82BAF0E460019CA0A /* YoutubeBrowserView.swift */,
+				4DE90FE42BA4B12C00DE1000 /* WebStruct.swift */,
 				4DE90FD72BA4B08C00DE1000 /* ImmersiveView.swift */,
+				4DB144C12BC9C8CE00EA6A8E /* GlobalEntities.swift */,
+				4D4D13FD2BC87F9000BB985E /* SizeSliders.swift */,
 				4DE90FD92BA4B08D00DE1000 /* Assets.xcassets */,
 				4DE90FDE2BA4B08D00DE1000 /* Info.plist */,
 				4DE90FDB2BA4B08D00DE1000 /* Preview Content */,
@@ -158,7 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE90FD62BA4B08C00DE1000 /* ContentView.swift in Sources */,
+				4D7ECAD42BAC9411002C2A10 /* AppState.swift in Sources */,
+				4D98A8D92BAF0E460019CA0A /* YoutubeBrowserView.swift in Sources */,
+				4DE90FE52BA4B12C00DE1000 /* WebStruct.swift in Sources */,
+				4D7ECAD62BAC947D002C2A10 /* StartView.swift in Sources */,
+				4D4D13FE2BC87F9000BB985E /* SizeSliders.swift in Sources */,
 				4DE90FD42BA4B08C00DE1000 /* WebViewerApp.swift in Sources */,
+				4DB144C22BC9C8CE00EA6A8E /* GlobalEntities.swift in Sources */,
 				4DE90FD82BA4B08C00DE1000 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +332,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -334,6 +359,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
